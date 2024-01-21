@@ -1,0 +1,70 @@
+/* Styles communs à toutes les pages */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #3498db;
+}
+
+/* Styles de la navigation */
+nav {
+    background-color: #2ecc71;
+    display: flex;
+    /* Mise à jour: Utilisation de flex pour un alignement horizontal */
+    justify-content: space-around;
+    /* Mise à jour: Répartition égale des éléments de navigation */
+    align-items: center;
+}
+
+/* Styles des images dans la navigation */
+nav img {
+    width: 30px;
+    /* Mise à jour: Ajustement de la taille des images dans la navigation */
+}
+
+/* Styles de la section principale */
+main {
+    background-color: #ecf0f1;
+    font-size: 18px;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #34495e;
+}
+
+/* Styles de h1 */
+h1 {
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    color: #e74c3c;
+}
+
+/* Styles de p */
+p {
+    line-height: 1.5;
+}
+
+/* Styles de la classe "grid": Grille à 2 colonnes */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Mise à jour: Grille de 2 colonnes de largeur égale */
+    gap: 20px;
+    /* Mise à jour: Espacement entre les éléments de la grille */
+}
+
+/* Styles des images dans la classe "grid": Largeur à 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Styles de la classe "flex": Utilisation de flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
